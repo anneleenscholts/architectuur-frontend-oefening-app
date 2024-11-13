@@ -46,12 +46,3 @@ Een betere manier is echter om deze lijst van evenementen en het filteren daarva
 - Importeer deze lijst nu in de evenementen pagina en kijk of alles nog werkt
 
 Je kan deze lijst nu ook importeren in de Home view en daar filteren en in de template weergeven **of** je maakt een `getFutureEvents` functie aan in de service (beter) die je kan gebruiken om alleen de toekomstige evenementen in de service weer te geven.
-
-## Oefening 6 - Weergeven enkel evenement als een custom component
-Vermits je op 2 plaatsen hetzelfde stukje code gebruikt om een evenement weer te geven in de template kunnen we dit ook verplaatsen naar een Component dat we importeren in zowel de EvenementView als de HomeView.
-
-## Oefening 7 - Extra - Conditionele weergave van een evenement
-Een evenement dat al geweest is en eentje dat nog moet plaatsvinden zou anders gestyled moeten worden. Je kan dat doen aan de hand van `props`.
-- Maak een script aan in je custom evenement component
-- Zorg ervoor dat je een prop `"hasPassed"` kan aanvaarden die een `boolean` is
-- Als dit `true` is, dan moet het element anders gestyled worden (bv een andere achtergrondkleur)
