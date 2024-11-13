@@ -46,3 +46,12 @@ Een betere manier is echter om deze lijst van evenementen en het filteren daarva
 - Importeer deze lijst nu in de evenementen pagina en kijk of alles nog werkt
 
 Je kan deze lijst nu ook importeren in de Home view en daar filteren en in de template weergeven **of** je maakt een `getFutureEvents` functie aan in de service (beter) die je kan gebruiken om alleen de toekomstige evenementen in de service weer te geven.
+
+- Maak een `getFutureEvents` functie in de service
+- Zorg ervoor dat je in deze functie alleen de evenementen returned die nog niet geweest zijn
+- Expose de functie 
+- Gebruik de functie in de HomeView
+
+## Oefening 6 - Custom component
+Elke Pagina heeft zijn eigen titel. Geef deze titel wat styling zodat het er mooier uitziet (bv een andere kleur, een andere font, ...).
+Om te voorkomen dat je dit voor elke pagina / view apart moet doen kan je de titel in een custom component zetten en de styling daar doen.
